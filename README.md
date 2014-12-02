@@ -6,4 +6,4 @@ dockerfile-debade-master
         --dns 172.17.42.1 \
         -v /dev/log:/dev/log \
         -p 9090:80 \
-        -d pihizi/debade
+        -d pihizi/debade-master
