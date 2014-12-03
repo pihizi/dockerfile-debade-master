@@ -17,4 +17,4 @@ ADD etc/debade/debade.conf /etc/debade/debade.conf
 
 EXPOSE 80
 
-CMD ["/usr/bin/debade-master", "start"]
+CMD ["/usr/bin/debade-master"]
