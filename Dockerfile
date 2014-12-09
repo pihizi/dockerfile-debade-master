@@ -15,6 +15,8 @@ RUN (curl -sL https://deb.nodesource.com/setup | bash -) && \
 
 ADD etc/debade/debade.conf /etc/debade/debade.conf
 
+RUN chmod -R +w /var/log
+
 EXPOSE 80
 
 CMD ["/usr/bin/debade-master"]
